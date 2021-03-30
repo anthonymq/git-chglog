@@ -1,6 +1,6 @@
 FROM docker.io/golang:1.16-alpine
 
-RUN go get github.com/git-chglog/git-chglog/cmd/git-chglog
+RUN go get github.com/anthonymq/git-chglog/cmd/git-chglog
 
 FROM docker.io/alpine:latest
 
